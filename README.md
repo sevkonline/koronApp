@@ -1,2 +1,3 @@
-# Corona App
-It shows data from [https://covid19.mathdro.id/api](https://covid19.mathdro.id/api) API regarding the affected countries and count of people.
+# KoronApp
+Korona virüs hakkındaki en güncel verilere ulaşabileceğiniz, next.js ile geliştirilmiş web uygulaması.
+Veriler [https://covid19.mathdro.id/api](https://covid19.mathdro.id/api) tarafından sağlanmaktadır.

@@ -16,10 +16,10 @@ const CountrySelectBox = () => {
     <>
       {
         loading ? <Skeleton width="400" /> : (
-          <label className="wrapper">Choose a place
+          <label className="wrapper">Ülke Seç
             <div className="button custom-select">
               <select value={selectedCountryCode} onChange={(e) => handleSelectBoxChange(e)}>
-                <option value="Entire World">Entire World</option>
+                <option value="Entire World">Dünya Geneli</option>
                 {
                   countries.countries.length > 0 && countries.countries.map(({ name, iso3}) => (
                     <option key={iso3} value={iso3}>

@@ -21,28 +21,28 @@ const Home = () => {
     <GlobalProvider>
       <div className="container">
         <Head>
-          <title>Corona App</title>
+          <title>KoronApp</title>
           <link rel="icon" href="/favicon.ico" />
-          <meta name="author" content="Akash Rajpurohit" />
-          <meta name="description" content="Get Information about the anomalies brought about by Covid19 or Corona Virus" />
+          <meta name="author" content="sevkonline" />
+          <meta name="description" content="Covid 19 veya Coronavirüs hakkındaki en güncel veriler" />
           <meta name="og:title" content="Corona App" />
           <meta name="og:type" content="Website" />
-          <meta name="og:description" content="Get Information about the anomalies brought about by Covid19 or Corona Virus" />
-          <meta name="keywords" content="corona virus app, corona-app, corona virus stats, covid19 stats, covid19 stats app" />
-          <meta name="og:image" content="https://corona-app.now.sh/main.png" />
-          <meta name="og:image:alt" content="Get Information about the anomalies brought about by Covid19 or Corona Virus" />
+          <meta name="og:description" content="Covid 19 veya Coronavirüs'ün etkileri hakkındaki en güncel veriler" />
+          <meta name="keywords" content="corona virus, corona virus istatistik, covid19 stats, covid19 stats app" />
+          <meta name="og:image" content="https://koronapp.now.sh/main.png" />
+          <meta name="og:image:alt" content="Covid 19 veya Coronavirüs hakkındaki en güncel veriler" />
           <meta name="twitter:title" content="Corona App" />
-          <meta name="twitter:description" content="Get Information about the anomalies brought about by Covid19 or Corona Virus" />
-          <meta name="twitter:image" content="https://corona-app.now.sh/main.png" />
-          <meta name="twitter:image:alt" content="Get Information about the anomalies brought about by Covid19 or Corona Virus" />
+          <meta name="twitter:description" content="Covid 19 veya Coronavirüs hakkındaki en güncel veriler" />
+          <meta name="twitter:image" content="https://koronapp.now.sh/main.png" />
+          <meta name="twitter:image:alt" content="Covid 19 veya Coronavirüs hakkındaki en güncel veriler" />
         </Head>
         <main>
           <h1 className="title">
-            Welcome to <a href="/">Corona App</a>
+             <a href="/">KoronApp 🦠</a>
           </h1>
 
           <p className="description">
-          Get Information about the anomalies brought about by <code>Covid19 or Corona Virus</code>
+          <code>Covid19 veya Korona Virüs </code>hakkındaki en güncel istatistiklere ulaşabilirsiniz.
           </p>
 
           <CountrySelectBox />
@@ -56,44 +56,47 @@ const Home = () => {
 
         <footer>
           <div>
-            Powered by&nbsp;&nbsp;
+            &nbsp;&nbsp;
             <a
               href="https://nextjs.org/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <b>Next.js</b>
+              <b>Next.js </b>
             </a>
+            ile geliştirildi.
             &nbsp;&nbsp;&&nbsp;&nbsp;
             <a
               href="https://zeit.co"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <b>Zeit Now</b>
+              <b>Zeit Now </b>
             </a>
+            ile sunuldu.
           </div>
 
           <div>
-            Data Source from&nbsp;&nbsp;
+            Veriler&nbsp;&nbsp;
             <a
               href="https://covid19.mathdro.id/api"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <b>Mathdro's API</b>
+              <b>Mathdro's API </b>
             </a>
+            tarafından sağlanmaktadır.
           </div>
 
           <div>
-            Made By&nbsp;&nbsp;
             <a
-              href="https://akashwho.codes"
+              href="https://twitter.com/sevkonline"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <b>Akash Rajpurohit</b>
+              <b>Sevkonline </b>
             </a>
+            tarafından geliştirildi.
           </div>
         </footer>
 

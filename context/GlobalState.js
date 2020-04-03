@@ -13,9 +13,9 @@ import {
 
 const initialState = {
   countries: {},
-  selectedCountry: 'Entire World',
+  selectedCountry: 'Dünya Geneli',
   selectedCountryCode: '',
-  displayText: 'You are currently looking data for ',
+  displayText: 'Şuanda verilerini görüntülediğiniz ülke :  ',
   confirmed: 0,
   death: 0,
   recovered: 0,
@@ -93,7 +93,7 @@ export const GlobalProvider = ({ children }) => {
       addConfirmed(confirmed.value)
       addDeath(deaths.value)
       addRecovered(recovered.value)
-      updateDisplayText('You are currently looking data for ')
+      updateDisplayText('Şuanda verilerini görüntülediğiniz ülke: ')
       setIsLoading(false)
 
       logEvent('data', 'change')

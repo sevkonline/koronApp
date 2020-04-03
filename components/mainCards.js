@@ -7,19 +7,19 @@ const MainCards = () => {
     return (
         <>
             <Card
-              title="Confirmed"
+              title="Toplam Vaka 😷"
               value={confirmed}
               type="confirmed"
             />
 
             <Card
-              title="Deaths"
+              title=" Toplam Ölüm ☠️"
               value={death}
               type="death"
             />
 
             <Card
-              title="Recovered"
+              title="Toplam İyileşen 🏃"
               value={recovered}
               type="recovered"
             />
